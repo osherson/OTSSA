@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<HwDescription>
+  <BeBoard Id="0" boardType="D19C" >
+    <connection id="board" uri="ipbusudp-2.0://192.168.1.51:50001" address_table="file://settings/address_tables/d19c_address_table.xml" />
+  </BeBoard>
+</HwDescription>
