@@ -598,7 +598,7 @@ void D19cFWInterface::SetI2CAddressTable()
 	{
 	for (int id = 0; id < fFWNChips; id++) 
 		{
-		i2c_slave_map.push_back({0b0100000 + id, 1, 1, 1, 1, 0}); // FIXME SSA ??
+		i2c_slave_map.push_back({0b0100000 + id, 2, 1, 1, 1, 0}); // FIXME SSA ??
 		}
 	}
     for (int ism = 0; ism < i2c_slave_map.size(); ism++) {
